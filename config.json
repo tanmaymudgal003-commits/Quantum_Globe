@@ -1,0 +1,25 @@
+{
+  "_comment": "QuantumGlobe Configuration — replace placeholder values with your actual API keys",
+
+  "GOOGLE_MAPS_API_KEY":  "AIzaSyCWP81blDr6fI7GccC8Z_jf6DEackH5y14",
+  "AERIAL_VIEW_API_KEY":  "AIzaSyAYOZBoAU3iojB0Hy6UnzdddSoreKFlhno",
+  "WEATHER_API_KEY":      "AIzaSyB7ZmHU4EaHlj-7oTrBS9cHbPmf_8ChAWY",
+  "QCCSO_API_KEY":        "JWRUtgMKlC4i7yqlLHfui2ngKCdvbfdCO19_FZD5ftGo",
+
+  "QCCSO_BASE_URL":       "https://api.qcc.so/v1",
+  "OPENWEATHER_BASE_URL": "https://api.openweathermap.org/data/2.5",
+  "OPENMETEO_BASE_URL":   "https://api.open-meteo.com/v1/forecast",
+
+  "SERVER_HOST":          "0.0.0.0",
+  "SERVER_PORT":          8080,
+  "DEBUG":                true,
+
+  "CACHE_TTL_SECONDS":    600,
+  "QCC_SHOTS":            2048,
+  "QCC_QUBITS":           5,
+  "FORECAST_DAYS":        7,
+
+  "CORS_ORIGINS":         ["*"],
+  "LOG_LEVEL":            "INFO",
+  "FRONTEND_FILE":        "quantum_globe3.html"
+}
