@@ -1,0 +1,20 @@
+{
+  "_comment": "QuantumGlobe Configuration",
+  "GOOGLE_MAPS_API_KEY":  "",
+  "AERIAL_VIEW_API_KEY":  "",
+  "WEATHER_API_KEY":      "",
+  "GEMINI_API_KEY":       "AIzaSyDJeEIlnVe_JV1cmLcMT94rf12avBsmumc",
+  
+  "SERVER_HOST":          "0.0.0.0",
+  "SERVER_PORT":          8080,
+  "DEBUG":                true,
+
+  "CACHE_TTL_SECONDS":    600,
+  "QCC_SHOTS":            2048,
+  "QCC_QUBITS":           5,
+  "FORECAST_DAYS":        7,
+
+  "CORS_ORIGINS":         ["*"],
+  "LOG_LEVEL":            "INFO",
+  "FRONTEND_FILE":        "quantum_globe3.html"
+}

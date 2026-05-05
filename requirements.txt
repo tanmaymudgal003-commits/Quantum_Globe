@@ -1,0 +1,18 @@
+# QuantumGlobe — Python dependencies
+# Install: pip install -r requirements.txt
+
+flask>=3.0.0
+flask-cors>=4.0.0
+numpy>=1.26.0
+requests>=2.31.0
+
+# Quantum computing (optional — falls back to mock if absent)
+qiskit>=1.0.0
+qiskit-aer>=0.13.0
+
+# Dev / server
+gunicorn>=21.2.0
+python-dotenv>=1.0.0
+
+# Gemini API
+google-generativeai
